@@ -1,2 +1,9 @@
+# Linting
 flake8
+
+# Fix linting
 autopep8
+
+# Security checks
+safety
+bandit

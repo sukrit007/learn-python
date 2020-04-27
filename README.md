@@ -57,6 +57,18 @@ autopep8 --aggressive -r --in-place .
 pytest tests
 ```
 
+## Security
+
+### Safety Check
+```bash
+safety
+```
+
+### Static Code Analysis
+```bash
+bandit -r .
+``` 
+
 ## Tools List
 https://github.com/vintasoftware/python-linters-and-code-analysis
 
