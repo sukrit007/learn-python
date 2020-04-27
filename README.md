@@ -1,4 +1,6 @@
 # Learn Python
+This project consists of different examples I used for learning python. It also
+has pointers to folder structure, tools for testing , project setup etc.
 
 ## Setup
 ### Python
