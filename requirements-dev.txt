@@ -2,8 +2,11 @@
 flake8
 
 # Fix linting
-autopep8
+black
 
 # Security checks
 safety
 bandit
+
+# Pre-Commit Hooks
+pre-commit

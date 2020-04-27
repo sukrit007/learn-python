@@ -36,6 +36,12 @@ echo 'Installing test dependencies...'
 pip install -r basics/requirements.txt
 ```
 
+## Pre-Commit Hools
+
+### Setup
+```bash
+pre-commit install
+```
 
 ## Code Style
 ### Linting
@@ -46,7 +52,7 @@ flake8 .
 The flake8 configuration can be found in [setup.cfg](./setup.cfg) in section flake8.
 
 
-### Fix 
+### Fix
 ```bash
 autopep8 --aggressive -r --in-place .
 ```
@@ -67,7 +73,7 @@ safety
 ### Static Code Analysis
 ```bash
 bandit -r .
-``` 
+```
 
 ## Tools List
 https://github.com/vintasoftware/python-linters-and-code-analysis

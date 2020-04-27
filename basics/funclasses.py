@@ -5,10 +5,10 @@ class ClassA:
         self.size = size
 
     def __repr__(self) -> str:
-        return 'ClassA(count=%d,size=%d)' % (self.count, self.size)
+        return "ClassA(count=%d,size=%d)" % (self.count, self.size)
 
     def __str__(self) -> str:
-        return 'count=%d,size=%d' % (self.count, self.size)
+        return "count=%d,size=%d" % (self.count, self.size)
 
 
 class ClassB(ClassA):
@@ -25,7 +25,7 @@ class ClassB(ClassA):
         return "bsize=%d" % self.bsize + "," + super().__str__()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print("ClassA#count: %d" % ClassA.count)
     obj1 = ClassA()
     obj2 = ClassA(20)
