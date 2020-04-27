@@ -54,7 +54,7 @@ The flake8 configuration can be found in [setup.cfg](./setup.cfg) in section fla
 
 ### Fix
 ```bash
-autopep8 --aggressive -r --in-place .
+black .
 ```
 
 ## Tests
